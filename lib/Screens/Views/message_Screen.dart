@@ -97,13 +97,13 @@ class _TabBarExampleState extends State<message_screen>
                                 controller: tabController,
                                 tabs: const [
                                   Tab(
-                                    text: "Upcoming",
+                                    text: "à venir",
                                   ),
                                   Tab(
-                                    text: "Completed",
+                                    text: "Passé",
                                   ),
                                   Tab(
-                                    text: "Cancel",
+                                    text: "Annuler",
                                   ),
                                 ],
                               ),

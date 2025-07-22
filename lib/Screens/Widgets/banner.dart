@@ -25,7 +25,7 @@ class banner extends StatelessWidget {
                 height: 25,
               ),
               Text(
-                "Early protection for\nyour family health",
+                "Protection précoce pour la santé de \n votre famille",
                 style: GoogleFonts.poppins(
                     fontSize: 16.sp,
                     fontWeight: FontWeight.w700,
@@ -44,7 +44,7 @@ class banner extends StatelessWidget {
                 child:
                     Row(mainAxisAlignment: MainAxisAlignment.center, children: [
                   Text(
-                    "Learn More",
+                    "Apprendre plus",
                     style: GoogleFonts.poppins(
                         fontSize: 12.sp, color: Colors.white),
                   ),

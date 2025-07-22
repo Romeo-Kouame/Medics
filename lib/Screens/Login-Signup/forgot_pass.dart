@@ -63,7 +63,7 @@ class _TabBarExampleState extends State<forgot_pass>
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   Text(
-                    "Forgot your password?",
+                    "Avez-vous oublié votre mot de passe ?",
                     style: GoogleFonts.poppins(
                       fontSize: 20.sp,
                       fontWeight: FontWeight.w600,
@@ -78,7 +78,7 @@ class _TabBarExampleState extends State<forgot_pass>
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   Text(
-                    "Enter your email or your phone number, we\nwill send you confirmation code",
+                    "Entrer votre courriel ou votre numéro de téléphone, nous\nvous enverrons un code de confirmation",
                     style: GoogleFonts.poppins(
                         fontSize: 14.sp,
                         fontWeight: FontWeight.w400,
@@ -121,10 +121,10 @@ class _TabBarExampleState extends State<forgot_pass>
                                 controller: tabController,
                                 tabs: [
                                   Tab(
-                                    text: "Email",
+                                    text: "Courriel",
                                   ),
                                   Tab(
-                                    text: "Phone",
+                                    text: "Téléphone",
                                   ),
                                 ],
                               ),

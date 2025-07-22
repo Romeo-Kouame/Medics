@@ -32,7 +32,7 @@ class login extends StatelessWidget {
         ),
         centerTitle: true,
         title: Text(
-          "Login",
+          "CONNEXION",
           style: GoogleFonts.inter(
               color: Colors.black87,
               fontSize: 22.sp,
@@ -67,7 +67,7 @@ class login extends StatelessWidget {
                         child: forgot_pass()));
               },
               child: Text(
-                "Forgot your password?",
+                "Avez-vous oublié votre mot de passe ?",
                 style: GoogleFonts.poppins(
                     fontSize: 15.sp,
                     color: const Color.fromARGB(255, 3, 190, 150),
@@ -86,7 +86,7 @@ class login extends StatelessWidget {
                 // Perform verification or other actions here
               },
               style: ElevatedButton.styleFrom(
-                primary: Color.fromARGB(255, 3, 190, 150),
+                backgroundColor: Color.fromARGB(255, 3, 190, 150),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(30),
                 ),
@@ -99,7 +99,7 @@ class login extends StatelessWidget {
                           type: PageTransitionType.fade, child: Homepage()));
                 },
                 child: Text(
-                  "Login",
+                  "Se connecter",
                   textAlign: TextAlign.center,
                   style: GoogleFonts.poppins(
                     fontSize: 18.sp,
@@ -118,7 +118,7 @@ class login extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                "Don't have an account? ",
+                "Vous n'avez pas de compte ? ",
                 style:
                     GoogleFonts.poppins(fontSize: 15.sp, color: Colors.black87),
               ),
@@ -131,7 +131,7 @@ class login extends StatelessWidget {
                           child: register()));
                 },
                 child: Text(
-                  "Sign Up",
+                  "S'inscrire",
                   style: GoogleFonts.poppins(
                     fontSize: 15.sp,
                     color: const Color.fromARGB(255, 3, 190, 150),
@@ -151,7 +151,7 @@ class login extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 10),
                 child: Text(
-                  "or",
+                  "ou",
                   style: TextStyle(
                     fontSize: 14,
                     color: Colors.grey,
@@ -166,16 +166,17 @@ class login extends StatelessWidget {
             height: 30,
           ),
           auth_social_logins(
-              logo: "images/google.png", text: "Sign in with Google"),
-          const SizedBox(
-            height: 20,
-          ),
-          auth_social_logins(logo: "images/apple.png", text: "Sign in Apple"),
+              logo: "images/google.png", text: "Se connecter avec Google"),
           const SizedBox(
             height: 20,
           ),
           auth_social_logins(
-              logo: "images/facebook.png", text: "Sign in facebook")
+              logo: "images/apple.png", text: "Se connecter avec Apple"),
+          const SizedBox(
+            height: 20,
+          ),
+          auth_social_logins(
+              logo: "images/facebook.png", text: "Se connecter avec Facebook")
         ]),
       ),
     );

@@ -33,7 +33,7 @@ class doctor_search extends StatelessWidget {
           ),
         ),
         title: Text(
-          "Top Doctors",
+          "Meilleurs Docteurs",
           style: GoogleFonts.poppins(color: Colors.black, fontSize: 18.sp),
         ),
         centerTitle: true,
@@ -83,19 +83,19 @@ class doctor_search extends StatelessWidget {
               image: "lib/icons/doctor2.png",
               maintext: "Dr. Marcus Horizon",
               numRating: "4.7",
-              subtext: "Chardiologist"),
+              subtext: "Chardiologue"),
           doctorList(
               distance: "800m Away",
               image: "lib/icons/black-doctor.png",
               maintext: "Dr. Marcus Horizon",
               numRating: "4.7",
-              subtext: "Chardiologist"),
+              subtext: "Chardiologue"),
           doctorList(
               distance: "800m Away",
               image: "lib/icons/male-doctor.png",
               maintext: "Dr. Marcus Horizon",
               numRating: "4.7",
-              subtext: "Chardiologist"),
+              subtext: "Chardiologue"),
         ],
       )),
     );

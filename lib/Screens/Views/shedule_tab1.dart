@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:medical/Screens/Widgets/shedule_card.dart';
-import 'package:responsive_sizer/responsive_sizer.dart';
 
 class shedule_tab1 extends StatelessWidget {
   const shedule_tab1({super.key});

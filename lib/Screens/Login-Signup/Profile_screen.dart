@@ -63,7 +63,7 @@ class Profile_screen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  "Amelia Renata",
+                  "Juliette de Roméo",
                   style: GoogleFonts.poppins(
                       fontSize: 16.sp,
                       fontWeight: FontWeight.w600,
@@ -103,7 +103,7 @@ class Profile_screen extends StatelessWidget {
                         height: 5,
                       ),
                       Text(
-                        "103lbs",
+                        "1200 cal",
                         style: GoogleFonts.poppins(
                             fontSize: 15.sp,
                             fontWeight: FontWeight.w600,
@@ -130,7 +130,7 @@ class Profile_screen extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        "Weight",
+                        "Poids",
                         style: GoogleFonts.poppins(
                             fontSize: 13.sp,
                             fontWeight: FontWeight.w600,
@@ -140,7 +140,7 @@ class Profile_screen extends StatelessWidget {
                         height: 5,
                       ),
                       Text(
-                        "756cal",
+                        "756 cal",
                         style: GoogleFonts.poppins(
                             fontSize: 15.sp,
                             fontWeight: FontWeight.w600,
@@ -167,7 +167,7 @@ class Profile_screen extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        "Heart rate",
+                        "Fréquence cardiaque",
                         style: GoogleFonts.poppins(
                             fontSize: 13.sp,
                             fontWeight: FontWeight.w600,
@@ -177,7 +177,7 @@ class Profile_screen extends StatelessWidget {
                         height: 5,
                       ),
                       Text(
-                        "215bpm",
+                        "87 bpm",
                         style: GoogleFonts.poppins(
                             fontSize: 15.sp,
                             fontWeight: FontWeight.w600,
@@ -205,7 +205,7 @@ class Profile_screen extends StatelessWidget {
                 ),
                 profile_list(
                   image: "lib/icons/heart2.png",
-                  title: "My Saved",
+                  title: "Santé",
                   color: Colors.black87,
                 ),
                 const Padding(
@@ -214,7 +214,7 @@ class Profile_screen extends StatelessWidget {
                 ),
                 profile_list(
                   image: "lib/icons/appoint.png",
-                  title: "Appointmnet",
+                  title: "Rendez-vous",
                   color: Colors.black87,
                 ),
                 const Padding(
@@ -232,7 +232,7 @@ class Profile_screen extends StatelessWidget {
                 ),
                 profile_list(
                   image: "lib/icons/pay.png",
-                  title: "Payment Method",
+                  title: "Méthode de paiement",
                   color: Colors.black87,
                 ),
                 const Padding(
@@ -241,7 +241,7 @@ class Profile_screen extends StatelessWidget {
                 ),
                 profile_list(
                   image: "lib/icons/logout.png",
-                  title: "Log out",
+                  title: "Se déconnecter",
                   color: Colors.red,
                 ),
               ]),

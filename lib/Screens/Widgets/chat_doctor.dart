@@ -44,7 +44,7 @@ class chat_doctor extends StatelessWidget {
                           color: Color.fromARGB(255, 41, 41, 41)),
                     ),
                     Text(
-                      "10 min ago",
+                      "10 min plus tôt",
                       style: GoogleFonts.poppins(
                           fontSize: 11.sp,
                           fontWeight: FontWeight.w500,

@@ -78,7 +78,7 @@ class articlePage extends StatelessWidget {
                     ),
                   ),
                   prefixIconColor: const Color.fromARGB(255, 3, 190, 150),
-                  label: Text("Search doctor, drugs, articles..."),
+                  label: Text("Chercher un docteur, médicament, article..."),
                   floatingLabelBehavior: FloatingLabelBehavior.never,
                   border: OutlineInputBorder(
                     borderSide: BorderSide.none,
@@ -96,7 +96,7 @@ class articlePage extends StatelessWidget {
             child: Row(
               children: [
                 Text(
-                  "Popular Articles",
+                  "Article populaire",
                   style: GoogleFonts.poppins(
                     fontSize: 18,
                     fontWeight: FontWeight.w500,
@@ -151,7 +151,7 @@ class articlePage extends StatelessWidget {
                       ),
                       child: Center(
                           child: Text(
-                        "Diet",
+                        "Régime",
                         style: GoogleFonts.poppins(
                             fontSize: 15,
                             fontWeight: FontWeight.w600,
@@ -173,7 +173,7 @@ class articlePage extends StatelessWidget {
                       ),
                       child: Center(
                           child: Text(
-                        "Fitness",
+                        "Aptitude",
                         style: GoogleFonts.poppins(
                             fontSize: 15,
                             fontWeight: FontWeight.w600,
@@ -198,7 +198,7 @@ class articlePage extends StatelessWidget {
                       ),
                       child: Center(
                           child: Text(
-                        "Medicines",
+                        "Medecines",
                         style: GoogleFonts.poppins(
                             fontSize: 15,
                             fontWeight: FontWeight.w600,
@@ -220,7 +220,7 @@ class articlePage extends StatelessWidget {
             child: Row(
               children: [
                 Text(
-                  "Trending Article",
+                  "Article tendance",
                   style: GoogleFonts.poppins(
                     fontSize: 18,
                     fontWeight: FontWeight.w500,
@@ -298,7 +298,7 @@ class articlePage extends StatelessWidget {
                               padding:
                                   const EdgeInsets.symmetric(horizontal: 15),
                               child: Text(
-                                "Comparing the AstraZeneca and Sinovac COVID-19 Vaccines",
+                                "Comparaison des vaccins contre le COVID-19 AstraZeneca et Sinovac",
                                 style: GoogleFonts.inter(
                                     fontSize: 13.sp,
                                     fontWeight: FontWeight.w600,
@@ -314,7 +314,7 @@ class articlePage extends StatelessWidget {
                               child: Row(
                                 children: [
                                   Text(
-                                    "Jun 10, 2021 ",
+                                    "10 Juin 2021 ",
                                     style: GoogleFonts.poppins(
                                         fontSize: 11.sp,
                                         fontWeight: FontWeight.w300),
@@ -323,7 +323,7 @@ class articlePage extends StatelessWidget {
                                     width: 10,
                                   ),
                                   Text(
-                                    "5min Read",
+                                    "lu...5min ",
                                     style: GoogleFonts.poppins(
                                         fontSize: 11.sp,
                                         color: Color.fromARGB(255, 0, 136, 102),
@@ -393,7 +393,7 @@ class articlePage extends StatelessWidget {
                               padding:
                                   const EdgeInsets.symmetric(horizontal: 15),
                               child: Text(
-                                "Comparing the AstraZeneca and Sinovac COVID-19 Vaccines",
+                                "Comparaison des vaccins contre la COVID-19",
                                 style: GoogleFonts.inter(
                                     fontSize: 13.sp,
                                     fontWeight: FontWeight.w600,
@@ -409,7 +409,7 @@ class articlePage extends StatelessWidget {
                               child: Row(
                                 children: [
                                   Text(
-                                    "Jun 10, 2021 ",
+                                    "10 Juin 2021 ",
                                     style: GoogleFonts.poppins(
                                         fontSize: 11.sp,
                                         fontWeight: FontWeight.w300),
@@ -418,7 +418,7 @@ class articlePage extends StatelessWidget {
                                     width: 10,
                                   ),
                                   Text(
-                                    "5min Read",
+                                    "lu...5 min",
                                     style: GoogleFonts.poppins(
                                         fontSize: 11.sp,
                                         color: Color.fromARGB(255, 0, 136, 102),
@@ -488,7 +488,7 @@ class articlePage extends StatelessWidget {
                               padding:
                                   const EdgeInsets.symmetric(horizontal: 15),
                               child: Text(
-                                "Comparing the AstraZeneca and Sinovac COVID-19 Vaccines",
+                                "Comparaison des vaccins contre la COVID-19",
                                 style: GoogleFonts.inter(
                                     fontSize: 13.sp,
                                     fontWeight: FontWeight.w600,
@@ -504,7 +504,7 @@ class articlePage extends StatelessWidget {
                               child: Row(
                                 children: [
                                   Text(
-                                    "Jun 10, 2021 ",
+                                    "10 Juin 2021 ",
                                     style: GoogleFonts.poppins(
                                         fontSize: 11.sp,
                                         fontWeight: FontWeight.w300),
@@ -513,7 +513,7 @@ class articlePage extends StatelessWidget {
                                     width: 10,
                                   ),
                                   Text(
-                                    "5min Read",
+                                    "Lu...5min",
                                     style: GoogleFonts.poppins(
                                         fontSize: 11.sp,
                                         color: Color.fromARGB(255, 0, 136, 102),
@@ -538,7 +538,7 @@ class articlePage extends StatelessWidget {
             child: Row(
               children: [
                 Text(
-                  "Related Article",
+                  "Article connexe",
                   style: GoogleFonts.poppins(
                     fontSize: 18,
                     fontWeight: FontWeight.w500,
@@ -555,7 +555,7 @@ class articlePage extends StatelessWidget {
               image: "images/article1.png",
               dateText: "2 min Read",
               duration: "2 min read",
-              mainText: "Main text"),
+              mainText: "Texte principal"),
         ]),
       ),
     );

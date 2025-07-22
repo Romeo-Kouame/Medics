@@ -13,7 +13,7 @@ class Homepage extends StatefulWidget {
 
 class _HomepageState extends State<Homepage> {
   List<IconData> icons = [
-    FontAwesomeIcons.home,
+    FontAwesomeIcons.house,
     FontAwesomeIcons.envelope,
     FontAwesomeIcons.clipboardCheck,
     FontAwesomeIcons.user,

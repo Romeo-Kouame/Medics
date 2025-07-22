@@ -14,7 +14,7 @@ class tab1 extends StatelessWidget {
           height: 40,
         ),
         Center(
-          child: Container(
+          child: SizedBox(
             height: MediaQuery.of(context).size.height * 0.1,
             width: MediaQuery.of(context).size.width * 0.9,
             child: TextField(
@@ -36,7 +36,7 @@ class tab1 extends StatelessWidget {
                     ),
                   ),
                   prefixIconColor: const Color.fromARGB(255, 3, 190, 150),
-                  label: Text("Enter your email"),
+                  label: Text("Saisir votre email"),
                   floatingLabelBehavior: FloatingLabelBehavior.never,
                   border: OutlineInputBorder(
                     borderSide: BorderSide.none,
@@ -45,7 +45,7 @@ class tab1 extends StatelessWidget {
             ),
           ),
         ),
-        Container(
+        SizedBox(
           height: MediaQuery.of(context).size.height * 0.05,
           width: MediaQuery.of(context).size.width * 01,
           child: ElevatedButton(
@@ -53,13 +53,13 @@ class tab1 extends StatelessWidget {
               // Perform verification or other actions here
             },
             style: ElevatedButton.styleFrom(
-              primary: Color.fromARGB(255, 3, 190, 150),
+              backgroundColor: Color.fromARGB(255, 3, 190, 150),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(30),
               ),
             ),
             child: Text(
-              "Reset Password",
+              "Réinitialisé votre mot de passe",
               textAlign: TextAlign.center,
               style: GoogleFonts.poppins(
                 fontSize: 18.sp,

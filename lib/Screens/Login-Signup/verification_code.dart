@@ -39,7 +39,7 @@ class verification_code extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
               Text(
-                "Enter verification code we have sent to your\nnumber",
+                "Entrer le code de verification que nous vous avons envoyer sur votre numéro",
                 style: GoogleFonts.poppins(
                     fontSize: 15.sp,
                     fontWeight: FontWeight.w400,
@@ -172,13 +172,13 @@ class verification_code extends StatelessWidget {
                 // Perform verification or other actions here
               },
               style: ElevatedButton.styleFrom(
-                primary: Color.fromARGB(255, 3, 190, 150),
+                backgroundColor: Color.fromARGB(255, 3, 190, 150),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(30),
                 ),
               ),
               child: Text(
-                "Verify",
+                "Vérifier",
                 textAlign: TextAlign.center,
                 style: GoogleFonts.poppins(
                   fontSize: 18.sp,
@@ -196,12 +196,12 @@ class verification_code extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                "Don't recieve code yet? ",
+                "Vous n'avez pas encore reçu de code",
                 style:
                     GoogleFonts.poppins(fontSize: 15.sp, color: Colors.black87),
               ),
               Text(
-                "Resend",
+                "Renvoyer",
                 style: GoogleFonts.poppins(
                   fontSize: 15.sp,
                   color: const Color.fromARGB(255, 3, 190, 150),

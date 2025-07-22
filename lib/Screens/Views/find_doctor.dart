@@ -28,7 +28,7 @@ class find_doctor extends StatelessWidget {
         title: Column(
           children: [
             Text(
-              "Find Doctor",
+              "Trouver un Docteur",
               style: GoogleFonts.inter(
                   color: Color.fromARGB(255, 51, 47, 47),
                   fontSize: 20.sp,
@@ -76,7 +76,7 @@ class find_doctor extends StatelessWidget {
                     ),
                   ),
                   prefixIconColor: const Color.fromARGB(255, 3, 190, 150),
-                  label: Text("Search doctor, drugs, articles..."),
+                  label: Text("Trouver un docteur, médicament, articles..."),
                   floatingLabelBehavior: FloatingLabelBehavior.never,
                   border: OutlineInputBorder(
                     borderSide: BorderSide.none,
@@ -95,7 +95,7 @@ class find_doctor extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 25),
                 child: Text(
-                  "Top Doctor",
+                  "Meilleur Docteur",
                   style: GoogleFonts.inter(
                     fontSize: 16.sp,
                     fontWeight: FontWeight.w700,
@@ -114,9 +114,10 @@ class find_doctor extends StatelessWidget {
                 width: 10,
               ),
               listIcons(Icon: "lib/icons/Doctor.png", text: "General"),
-              listIcons(Icon: "lib/icons/Lungs.png", text: "Lungs Prob"),
+              listIcons(
+                  Icon: "lib/icons/Lungs.png", text: "Probabilité des poumons"),
               listIcons(Icon: "lib/icons/Dentist.png", text: "General"),
-              listIcons(Icon: "lib/icons/psychology.png", text: "Psychiatrist")
+              listIcons(Icon: "lib/icons/psychology.png", text: "Psychiatre")
             ],
           ),
           Row(
@@ -125,7 +126,9 @@ class find_doctor extends StatelessWidget {
                 width: 10,
               ),
               listIcons(Icon: "lib/icons/covid.png", text: "General"),
-              listIcons(Icon: "lib/icons/injection.png", text: "Lungs Prob"),
+              listIcons(
+                  Icon: "lib/icons/injection.png",
+                  text: "Probabilité des poumons"),
               listIcons(Icon: "lib/icons/cardiologist.png", text: "General"),
             ],
           ),
@@ -138,7 +141,7 @@ class find_doctor extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 25),
                 child: Text(
-                  "Recommended Doctors",
+                  "Docteurs récommandés",
                   style: GoogleFonts.inter(
                     fontSize: 16.sp,
                     fontWeight: FontWeight.w700,
@@ -175,7 +178,7 @@ class find_doctor extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 25),
                 child: Text(
-                  "Your Recent Doctors",
+                  "Vos recent docteurs",
                   style: GoogleFonts.inter(
                     fontSize: 16.sp,
                     fontWeight: FontWeight.w700,

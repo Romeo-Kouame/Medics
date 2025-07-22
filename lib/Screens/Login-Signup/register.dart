@@ -29,7 +29,7 @@ class register extends StatelessWidget {
           },
         ),
         title: Text(
-          "Sign up",
+          "INSCRIPTION",
           style: GoogleFonts.inter(
               color: Colors.black87,
               fontSize: 22.sp,
@@ -70,7 +70,7 @@ class register extends StatelessWidget {
                     ),
                     prefixIconColor: const Color.fromARGB(255, 3, 190, 150),
                     label: Text(
-                      "Enter your email",
+                      "Entrer votre courriel",
                       style: GoogleFonts.poppins(fontSize: 15.sp),
                     ),
                     floatingLabelBehavior: FloatingLabelBehavior.never,
@@ -84,12 +84,13 @@ class register extends StatelessWidget {
           const SizedBox(
             height: 5,
           ),
-          Auth_text_field(text: "Enter your name", icon: "lib/icons/email.png"),
+          Auth_text_field(
+              text: "Entrer votre nom", icon: "lib/icons/email.png"),
           const SizedBox(
             height: 5,
           ),
           Auth_text_field(
-              text: "Enter your password", icon: "lib/icons/lock.png"),
+              text: "Entrer votre mot de passe", icon: "lib/icons/lock.png"),
           Row(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
@@ -98,7 +99,7 @@ class register extends StatelessWidget {
                 onChanged: (bool? value) {},
               ),
               Text(
-                "I agree to the terms and conditions",
+                "J'accepte les termes et conditions",
                 style: GoogleFonts.poppins(
                   fontSize: 14.sp,
                   color: Colors.black87,
@@ -117,7 +118,7 @@ class register extends StatelessWidget {
                 // Perform verification or other actions here
               },
               style: ElevatedButton.styleFrom(
-                primary: Color.fromARGB(255, 3, 190, 150),
+                backgroundColor: Color.fromARGB(255, 3, 190, 150),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(30),
                 ),
@@ -141,7 +142,7 @@ class register extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                "Already have an account? ",
+                "Vous avez déjà un compte ? ",
                 style:
                     GoogleFonts.poppins(fontSize: 14.sp, color: Colors.black87),
               ),
@@ -154,7 +155,7 @@ class register extends StatelessWidget {
                           child: login()));
                 },
                 child: Text(
-                  "Sign in",
+                  "Se connecter",
                   style: GoogleFonts.poppins(
                     fontSize: 14.sp,
                     color: const Color.fromARGB(255, 3, 190, 150),

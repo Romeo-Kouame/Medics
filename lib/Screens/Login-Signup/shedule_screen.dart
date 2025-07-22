@@ -37,7 +37,7 @@ class _TabBarExampleState extends State<shedule_screen>
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text(
-          "Top Doctors",
+          "Les meilleurs médecins",
           style: GoogleFonts.poppins(color: Colors.black, fontSize: 18.sp),
         ),
         centerTitle: false,
@@ -96,13 +96,13 @@ class _TabBarExampleState extends State<shedule_screen>
                                 controller: tabController,
                                 tabs: const [
                                   Tab(
-                                    text: "Upcoming",
+                                    text: "à venir",
                                   ),
                                   Tab(
-                                    text: "Completed",
+                                    text: "Passé",
                                   ),
                                   Tab(
-                                    text: "Cancel",
+                                    text: "Annulé",
                                   ),
                                 ],
                               ),

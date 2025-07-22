@@ -14,7 +14,7 @@ class tab2 extends StatelessWidget {
           height: 40,
         ),
         Center(
-          child: Container(
+          child: SizedBox(
             height: MediaQuery.of(context).size.height * 0.1,
             width: MediaQuery.of(context).size.width * 0.9,
             child: TextField(
@@ -45,7 +45,7 @@ class tab2 extends StatelessWidget {
             ),
           ),
         ),
-        Container(
+        SizedBox(
           height: MediaQuery.of(context).size.height * 0.05,
           width: MediaQuery.of(context).size.width * 01,
           child: ElevatedButton(
@@ -53,7 +53,7 @@ class tab2 extends StatelessWidget {
               // Perform verification or other actions here
             },
             style: ElevatedButton.styleFrom(
-              primary: Color.fromARGB(255, 3, 190, 150),
+              backgroundColor: Color.fromARGB(255, 3, 190, 150),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(30),
               ),

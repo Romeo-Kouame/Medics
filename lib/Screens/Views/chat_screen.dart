@@ -123,7 +123,7 @@ class chat_screen extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text(
-                          "Hello. how can i help you?",
+                          "Salut ! Comment je peux vous aider ?",
                           style: TextStyle(fontSize: 15.sp),
                         )
                       ]),
@@ -156,7 +156,7 @@ class chat_screen extends StatelessWidget {
                                 padding: EdgeInsets.all(8.0),
                                 // User's message content
                                 child: Text(
-                                  "I have suffering from headache and cold for 3 days, I took 2 tablets of dolo,\nbut still pain",
+                                  "Je souffre des maux de tête et de rhume depuis 3 jours, J'ai pris deux tablettes de dolipranne \nmais la douleur persiste toujours",
                                   style: TextStyle(
                                       fontSize: 14.sp, color: Colors.white),
                                 ),
@@ -198,7 +198,7 @@ class chat_screen extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text(
-                          "Hello. how can i help you?",
+                          "Salut, comment je peux vous aider",
                           style: TextStyle(fontSize: 14.sp),
                         )
                       ]),
@@ -231,7 +231,7 @@ class chat_screen extends StatelessWidget {
                                 padding: EdgeInsets.all(8.0),
                                 // User's message content
                                 child: Text(
-                                  "I have suffering from headache and cold for 3 days, I took 2 tablets of dolo,\nbut still pain",
+                                  "Je souffre des maux de tête et de rhume depuis 3 jours, J'ai pris deux tablettes de dolipranne \nmais la douleur persiste toujours",
                                   style: TextStyle(
                                       color: Colors.white, fontSize: 13.sp),
                                 ),
@@ -282,7 +282,7 @@ class chat_screen extends StatelessWidget {
                           ),
                         ),
                         prefixIconColor: const Color.fromARGB(255, 3, 190, 150),
-                        label: Text("Type message ..."),
+                        label: Text("Saisir message ..."),
                         floatingLabelBehavior: FloatingLabelBehavior.never,
                         border: OutlineInputBorder(
                           borderSide: BorderSide.none,

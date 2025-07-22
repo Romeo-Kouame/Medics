@@ -39,7 +39,7 @@ class _TabBarExampleState extends State<message_tab_all>
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text(
-          "Shedule",
+          "Calendrier",
           style: GoogleFonts.poppins(color: Colors.black, fontSize: 18.sp),
         ),
         centerTitle: false,
@@ -72,7 +72,7 @@ class _TabBarExampleState extends State<message_tab_all>
           child: message_all_widget(
             image: "lib/icons/male-doctor.png",
             Maintext: "Dr. Marcus Horizon",
-            subtext: "I don,t have any fever, but headchace...",
+            subtext: "Je n'ai pas de fièvre, mais des maux de tête...",
             time: "10.24",
             message_count: "2",
           ),
@@ -80,14 +80,14 @@ class _TabBarExampleState extends State<message_tab_all>
         message_all_widget(
           image: "lib/icons/docto3.png",
           Maintext: "Dr. Alysa Hana",
-          subtext: "Hello, How can i help you?",
+          subtext: "Salut! Comment je peux vous aider aujourd'hui ?",
           time: "10.24",
           message_count: "1",
         ),
         message_all_widget(
           image: "lib/icons/doctor2.png",
           Maintext: "Dr. Maria Elena",
-          subtext: "Do you have fever?",
+          subtext: "Avez-vous de la fièvre ?",
           time: "10.24",
           message_count: "3",
         ),
